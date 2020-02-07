@@ -18,6 +18,9 @@
 		49281C0523ED6E4E001A3B05 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49281C0223ED6E4E001A3B05 /* WelcomeView.swift */; };
 		49281C0623ED6E4E001A3B05 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49281C0323ED6E4E001A3B05 /* SignUpView.swift */; };
 		49281C0723ED6E4E001A3B05 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49281C0423ED6E4E001A3B05 /* SignInView.swift */; };
+		49281C1023ED7EC9001A3B05 /* StudentPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49281C0F23ED7EC9001A3B05 /* StudentPosition.swift */; };
+		4936FE2723ED975A0031BDB4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936FE2623ED975A0031BDB4 /* Student.swift */; };
+		4936FE2923ED98220031BDB4 /* WhoIsHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936FE2823ED98220031BDB4 /* WhoIsHere.swift */; };
 		DAFF071F576E109FBC1B2907 /* libPods-WhoIsHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B708C476F442F3F09EFE363A /* libPods-WhoIsHere.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		49281C0223ED6E4E001A3B05 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		49281C0323ED6E4E001A3B05 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		49281C0423ED6E4E001A3B05 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		49281C0F23ED7EC9001A3B05 /* StudentPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPosition.swift; sourceTree = "<group>"; };
+		4936FE2623ED975A0031BDB4 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4936FE2823ED98220031BDB4 /* WhoIsHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoIsHere.swift; sourceTree = "<group>"; };
 		B708C476F442F3F09EFE363A /* libPods-WhoIsHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhoIsHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D70484484284F74A7B3F6 /* Pods-WhoIsHere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoIsHere.release.xcconfig"; path = "Target Support Files/Pods-WhoIsHere/Pods-WhoIsHere.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,7 @@
 		49281BE823ED5CE4001A3B05 /* WhoIsHere */ = {
 			isa = PBXGroup;
 			children = (
+				49281C0E23ED7E9B001A3B05 /* Models */,
 				49281BFF23ED69ED001A3B05 /* WhoIsHere.entitlements */,
 				49281BE923ED5CE4001A3B05 /* AppDelegate.swift */,
 				49281BEB23ED5CE4001A3B05 /* SceneDelegate.swift */,
@@ -90,6 +97,7 @@
 				49281C0423ED6E4E001A3B05 /* SignInView.swift */,
 				49281C0323ED6E4E001A3B05 /* SignUpView.swift */,
 				49281C0223ED6E4E001A3B05 /* WelcomeView.swift */,
+				4936FE2823ED98220031BDB4 /* WhoIsHere.swift */,
 				49281C0023ED6D6D001A3B05 /* AppTitleView.swift */,
 				49281BEF23ED5CE5001A3B05 /* Assets.xcassets */,
 				49281BF423ED5CE5001A3B05 /* LaunchScreen.storyboard */,
@@ -106,6 +114,15 @@
 				49281BF223ED5CE5001A3B05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49281C0E23ED7E9B001A3B05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49281C0F23ED7EC9001A3B05 /* StudentPosition.swift */,
+				4936FE2623ED975A0031BDB4 /* Student.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		872BCC33CE395758FBBFCB88 /* Frameworks */ = {
@@ -218,8 +235,11 @@
 				49281C0723ED6E4E001A3B05 /* SignInView.swift in Sources */,
 				49281BEA23ED5CE4001A3B05 /* AppDelegate.swift in Sources */,
 				49281BEC23ED5CE4001A3B05 /* SceneDelegate.swift in Sources */,
+				4936FE2723ED975A0031BDB4 /* Student.swift in Sources */,
+				49281C1023ED7EC9001A3B05 /* StudentPosition.swift in Sources */,
 				49281BEE23ED5CE4001A3B05 /* ContentView.swift in Sources */,
 				49281C0623ED6E4E001A3B05 /* SignUpView.swift in Sources */,
+				4936FE2923ED98220031BDB4 /* WhoIsHere.swift in Sources */,
 				49281C0123ED6D6D001A3B05 /* AppTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

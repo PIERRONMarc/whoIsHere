@@ -36,6 +36,16 @@ struct WelcomeView: View {
                      Spacer()
                      Text("Hello World!")
                      Spacer()
+                
+                    Button(action: {
+                        WhoIsWhere.createMe()
+                    }, label: {
+                        Text("Create me")
+                            .foregroundColor(Color.white)
+                            .padding()
+                    })
+                    .background(Color.blue)
+                    .cornerRadius(5)
 
                      Button(action: {
                        let firebaseAuth = Auth.auth()
