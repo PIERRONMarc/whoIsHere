@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1085299243298-0mce9i6ct0p4vecgq4meo7v3gu4mqr06.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1085299243298-0mce9i6ct0p4vecgq4meo7v3gu4mqr06</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQ4gjzaXGdH6zXHs2pfVWMcFis5ocJtRc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1085299243298</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>LPDW.WhoIsHere</string>
+	<key>PROJECT_ID</key>
+	<string>whoishere-e6f5b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whoishere-e6f5b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1085299243298:ios:5eb8946ecfeeb118468d7b</string>
+	<key>DATABASE_URL</key>
+	<string>https://whoishere-e6f5b.firebaseio.com</string>
+</dict>
+</plist>
