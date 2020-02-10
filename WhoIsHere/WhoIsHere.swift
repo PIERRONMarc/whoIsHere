@@ -9,7 +9,7 @@
 import Foundation
 import Firebase
 
-struct WhoIsWhere {
+struct WhoIsHere {
     static let studentRef = Database.database().reference(withPath: "students")
     
     static func createMe() {

@@ -23,7 +23,10 @@ struct WelcomeView: View {
        @State var selection: Int? = nil
        @State var viewState = CGSize.zero
        @State var MainviewState =  CGSize.zero
-       
+    
+        @State var studentName:String = ""
+       @State var studentLogin:String = ""
+
        var body: some View {
         
         ZStack{
@@ -31,22 +34,52 @@ struct WelcomeView: View {
            if Auth.auth().currentUser != nil {
                             
              VStack{
-                        
+                    
                      AppTitleView(Title: "Home")
                      Spacer()
                      Text("Hello World!")
+                
+                    VStack{
+                        TextField("student name",text: $studentName)
+                        TextField("user@domain.com",text: $studentLogin)
+
+                    }
+                    
+                
+                    Button(action: {
+                        WhoIsHere.createStudent(
+                            name: self.studentName,
+                            login: self.studentLogin
+                        )
+                        }, label: {
+                           Text("Create students")
+                               .foregroundColor(Color.white)
+                               .padding()
+                       })
+                        .background(Color.init(red: 0.5, green: 0.5, blue: 0.5))
+                     .padding(10)
+
+                     .cornerRadius(5)
+               
                      Spacer()
                 
                     Button(action: {
-                        WhoIsWhere.createMe()
+                        WhoIsHere.createMe()
+                        
                     }, label: {
-                        Text("Create me")
+                        Text("Creat me")
                             .foregroundColor(Color.white)
                             .padding()
                     })
-                    .background(Color.blue)
-                    .cornerRadius(5)
 
+
+                        .background(Color.init(red: 0.5, green: 0.5, blue: 0.5))
+                        .padding(10)
+
+                        .cornerRadius(5)
+
+                
+                    Spacer()
                      Button(action: {
                        let firebaseAuth = Auth.auth()
                        do {
@@ -81,6 +114,7 @@ struct WelcomeView: View {
                         Spacer()
                         VStack(spacing:20) {
                             
+                            
                             Button(action: {self.signUpIsPresent = true}){
                                 Text("Sign Up")
                                   
@@ -102,6 +136,7 @@ struct WelcomeView: View {
                                   self.MainviewState = CGSize(width: 0, height: 0)
                                       
                                   })}}
+                
                         Spacer()
                               
                 }.edgesIgnoringSafeArea(.top).edgesIgnoringSafeArea(.bottom)
