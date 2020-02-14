@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>161759885903-ne2cf96unn5cu5244e89mjjfvufq68jm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.161759885903-ne2cf96unn5cu5244e89mjjfvufq68jm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAojcBFwMtc0DCRjm6mQC7UDFrVJEjmo4s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>161759885903</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>WhoIsHere</string>
+	<key>PROJECT_ID</key>
+	<string>whoisherev2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whoisherev2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:161759885903:ios:cd251429e4986d961c483a</string>
+	<key>DATABASE_URL</key>
+	<string>https://whoisherev2.firebaseio.com</string>
+</dict>
+</plist>

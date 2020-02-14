@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WhoIsHere
 //
-//  Created by Marc on 07/02/2020.
-//  Copyright © 2020 Marc. All rights reserved.
+//  Created by Etienne Vautherin on 07/02/2020.
+//  Copyright © 2020 Etienne Vautherin. All rights reserved.
 //
 
 import UIKit
@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        WhoIsHere.synchronize()
+        CloudStorage.Students.synchronize()
+//        WhoIsHere.synchronize()
         return true
     }
 
@@ -37,4 +38,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
